@@ -1,0 +1,25 @@
+.markdown {
+  padding: 4rem;
+  display: grid;
+  row-gap: 4rem;
+}
+.input {
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+  line-height: 2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  min-height: 30vh;
+}
+.input,
+.result {
+  padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .markdown {
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+}

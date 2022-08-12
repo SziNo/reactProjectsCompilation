@@ -1,0 +1,30 @@
+.btn-container {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-container button {
+  margin: 1rem;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-color: transparent;
+  background: hsl(205, 78%, 60%);
+  border-radius: 0.25rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.btn-container button:disabled {
+  cursor: not-allowed;
+}

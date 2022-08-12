@@ -1,0 +1,52 @@
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: hsl(205, 78%, 60%);
+  animation: spinner 0.6s linear infinite;
+}
+
+.single-movie {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 4rem auto;
+  display: grid;
+  gap: 2rem;
+}
+.single-movie img {
+  width: 100%;
+  display: block;
+}
+.single-movie p {
+  max-width: 35em;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  line-height: 1.8;
+}
+.btn {
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  background: hsl(205, 78%, 60%);
+  color: #fff;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+@media screen and (min-width: 992px) {
+  .single-movie {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+.page-error {
+  text-align: center;
+  padding: 2rem;
+}

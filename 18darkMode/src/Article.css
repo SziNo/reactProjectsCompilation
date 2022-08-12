@@ -1,0 +1,16 @@
+.post {
+  margin-bottom: 3rem;
+}
+.post h2 {
+  color: var(--clr-primary);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 1.75rem;
+}
+.post-info {
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+.post-info span {
+  margin-right: 0.5rem;
+}
